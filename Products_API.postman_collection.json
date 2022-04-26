@@ -36,7 +36,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"title\": \"Sega Genesis\",\n    \"description\": \"Classic Gaming Console\",\n    \"price\": 50.00,\n    \"inventory_quantity\": 1\n    }",
+					"raw": "{\n    \"title\": \"Super Nintendo\",\n    \"description\": \"Epic Gaming Console\",\n    \"price\": 50.00,\n    \"inventory_quantity\": 1\n    }",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -94,7 +94,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"title\": \"Super Nintendo\",\n    \"description\": \"Classic Gaming Console\",\n    \"price\": 50.00,\n    \"inventory_quantity\": 1\n    }",
+					"raw": "{\n        \"id\": 3,\n        \"title\": \"Sega Genesis\",\n        \"description\": \"Classic Gaming Console\",\n        \"price\": 50.0,\n        \"inventory_quantity\": 1,\n        \"image\": \"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6344/6344945_sd.jpg\"\n    }",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -102,7 +102,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/products/4/",
+					"raw": "http://127.0.0.1:8000/api/products/3/",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -114,7 +114,7 @@
 					"path": [
 						"api",
 						"products",
-						"4",
+						"3",
 						""
 					]
 				}
@@ -127,7 +127,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/products/4/",
+					"raw": "http://127.0.0.1:8000/api/products/7/",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -139,7 +139,7 @@
 					"path": [
 						"api",
 						"products",
-						"4",
+						"7",
 						""
 					]
 				}
